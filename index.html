@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burger</title>
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Icons link-->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <!--Navigation bar-->
+      <nav class="navbar">
+        <a href="#home" class="main-logo">Burger<span>Hub</span></a>
+
+        <div class="navbar-nav">
+          <a href="#home">Home</a>
+          <a href="#about">Our Journey</a>
+          <a href="#menu">Menu</a>
+          <a href="#service">Service</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="navbar1">
+          <a href="#" id="search-button"><i data-feather="search"></i></a>
+          <a href="#" id="shopping-cart-button"
+            ><i data-feather="shopping-cart"></i
+          ></a>
+          <a href="#" id="strip-3"><i data-feather="menu"></i></a>
+        </div>
+
+        <!-- Search form start -->
+        <div class="search-form">
+          <input type="search" id="search-box" placeholder="Search here.." />
+          <label for="search-box"><i data-feather="search"></i></label>
+        </div>
+        <!-- Search form end -->
+
+        <!-- Shopping cart start -->
+        <div class="shopping-cart">
+          <div class="cart-item">
+            <img src="image/beef-burger.jpg" alt="Product 1" />
+            <div class="item-detail">
+              <h3>Beef Burger</h3>
+              <div class="item-price">$14.00</div>
+            </div>
+            <i data-feather="trash-2" class="remove-item"></i>
+          </div>
+          <div class="cart-item">
+            <img src="image/chicken-burger.jpg" alt="Product 2" />
+            <div class="item-detail">
+              <h3>Beef Burger</h3>
+              <div class="item-price">$11.00</div>
+            </div>
+            <i data-feather="trash-2" class="remove-item"></i>
+          </div>
+          <div class="cart-item">
+            <img src="image/french-fries.jpg" alt="Product 3" />
+            <div class="item-detail">
+              <h3>Beef Burger</h3>
+              <div class="item-price">$7.00</div>
+            </div>
+            <i data-feather="trash-2" class="remove-item"></i>
+          </div>
+        </div>
+
+        <!-- Shoppping cart end -->
+      </nav>
+      <!--Navigation bar End-->
+
+      <!--Hero Section-->
+      <section class="hero" id="home">
+        <main class="content">
+          <h1>
+            Defy the Ordinary, Devour the
+            <span class="span2">Extraordinary!</span>
+          </h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. A,
+            adipisci!
+          </p>
+          <a href="#menu" class="cta">Savor Now!</a>
+        </main>
+      </section>
+
+      <!--about section-->
+
+      <section id="about" class="about">
+        <h2>Our <span>Story</span></h2>
+        <div class="row">
+          <div class="about-img">
+            <img src="/image/chef.jpg" />
+          </div>
+          <div class="row-content">
+            <h3>Our Journey to Burger <span>Hub</span></h3>
+            <p>
+              Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Doloremque animi voluptates inventore perspiciatis rem
+              asperiores iste illum deleniti temporibus quidem, blanditiis
+              cumque minus. Omnis ex id, veritatis iste voluptatibus aperiam
+              pariatur nihil eaque est laboriosam assumenda eum accusamus fugiat
+              magnam sint asperiores magni, eligendi quia suscipit odio! Quas
+              voluptatem ad temporibus voluptatibus sint mollitia iure corrupti,
+              odio officia, maiores quis delectus placeat sapiente minima
+              expedita accusantium voluptates animi explicabo in distinctio
+              perspiciatis assumenda quod quasi totam? Impedit eum facere itaque
+              omnis repellendus veritatis. Quam minus vel ut a pariatur,
+              accusantium cumque labore voluptatibus, soluta suscipit placeat
+              autem, numquam quisquam non? dolor sit amet consectetur
+              adipisicing elit. Labore tempore molestiae nisi, distinctio
+              explicabo dolores repellendus id recusandae fugiat, odit
+              dignissimos libero ratione? Illo enim quam saepe consequatur.
+              Corporis, unde.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--Menu Section-->
+      <section class="menu" id="menu">
+        <h2>Our <span>Menu</span></h2>
+        <h3>Taste the Heaven</h3>
+
+        <div class="menu-container">
+          <div class="menu-box">
+            <div class="menu-img">
+              <img src="image/beef-burger.jpg" />
+            </div>
+            <div class="menu-sub">
+              <h2>Beef Burger</h2>
+              <h3>
+                made of a ground beef patty, served in a bun with toppings like
+                lettuce, tomatoes, onions, and condiments.
+              </h3>
+              <button href="#" class="btn">
+                <span class="btn-text">$14.00</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="menu-box">
+            <div class="menu-img">
+              <img src="image/chicken-burger.jpg" />
+            </div>
+            <div class="menu-sub">
+              <h2>Chicken Burger</h2>
+              <h3>
+                featuring a ground chicken patty seasoned and cooked to
+                perfection, served on a bun with various toppings.
+              </h3>
+              <button href="#" class="btn">
+                <span class="btn-text">$11.00</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="menu-box">
+            <div class="menu-img">
+              <img src="image/french-fries.jpg" />
+            </div>
+            <div class="menu-sub">
+              <h2>French Fries</h2>
+              <h3>
+                Golden and crispy perfection: our signature French Fries.
+                Irresistibly seasoned for your delight
+              </h3>
+              <button href="#" class="btn">
+                <span class="btn-text">$7.00</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Service Section -->
+      <section class="service" id="service">
+        <h2>Our <span>Services</span></h2>
+        <h3>Your Satisfaction, Our Mission</h3>
+        <div class="service-container">
+          <div class="icon-box">
+            <i class="icon" data-feather="package"></i>
+            <h3>Order</h3>
+            <p>
+              Our Food Order Service prioritizes your cravings, ensuring hot and
+              tasty meals reach you in no time. Your hunger, our command.
+            </p>
+          </div>
+          <div class="icon-box">
+            <i class="icon" data-feather="truck"></i>
+            <h3>Shipping</h3>
+            <p>
+              Our Shipping Services ensure your meals are delivered fresh and on
+              time, every time. We bridge the distance from our kitchen to your
+              table.
+            </p>
+          </div>
+          <div class="icon-box">
+            <i class="icon" data-feather="home"></i>
+            <h3>Delivered</h3>
+            <p>
+              ensures your meals arrive at your doorstep with the right
+              temperature and taste. Savor the flavor in the comfort of your
+              home.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--Contact Section-->
+      <section class="contact" id="contact">
+        <h2>Our <span>Contact</span></h2>
+        <h3>We’re always here to help</h3>
+        <div class="contact-container">
+          <div class="left-box">
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                >
+                  <path
+                    d="M12 10c-1.104 0-2-.896-2-2s.896-2 2-2 2 .896 2 2-.896 2-2 2m0-5c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3m-7 2.602c0-3.517 3.271-6.602 7-6.602s7 3.085 7 6.602c0 3.455-2.563 7.543-7 14.527-4.489-7.073-7-11.072-7-14.527m7-7.602c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602"
+                  />
+                </svg>
+              </div>
+              <div class="contact-item-detail">
+                <h4 class="cont-text"><span>Burger</span> Hub</h4>
+                <p>
+                  Jln. Telekomunikasi, Buah Batu Bandung, Jawa Barat, Indonesia
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                >
+                  <path
+                    d="M8.26 1.289l-1.564.772c-5.793 3.02 2.798 20.944 9.31 20.944.46 0 .904-.094 1.317-.284l1.542-.755-2.898-5.594-1.54.754c-.181.087-.384.134-.597.134-2.561 0-6.841-8.204-4.241-9.596l1.546-.763-2.875-5.612zm7.746 22.711c-5.68 0-12.221-11.114-12.221-17.832 0-2.419.833-4.146 2.457-4.992l2.382-1.176 3.857 7.347-2.437 1.201c-1.439.772 2.409 8.424 3.956 7.68l2.399-1.179 3.816 7.36s-2.36 1.162-2.476 1.215c-.547.251-1.129.376-1.733.376"
+                  />
+                </svg>
+              </div>
+              <div class="contact-item-detail">
+                <h4 class="cont-text">Phone</h4>
+                <p>(+62)123-456-789</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"
+                  />
+                </svg>
+              </div>
+              <div class="contact-item-detail">
+                <h4 class="cont-text">Email</h4>
+                <p>burgerhub@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="right-box">
+            <form>
+              <h2>Send Message</h2>
+              <div class="inputBox">
+                <span>Full Name</span>
+                <input type="text" name="" required="required" />
+              </div>
+              <div class="inputBox">
+                <span>Email</span>
+                <input type="text" name="" required="required" />
+              </div>
+              <div class="inputBox">
+                <span>Feel Free to Fill</span>
+                <textarea required="required"></textarea>
+              </div>
+              <div class="inputBox">
+                <input type="submit" name="" value="Send" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-row">
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#service">Service</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Support</h4>
+            <ul>
+              <li><a href="#?">FAQ</a></li>
+              <li><a href="#?">Policy</a></li>
+              <li><a href="#?">Business</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Our Service</h4>
+            <ul>
+              <li><a href="#?">Order Tracking</a></li>
+              <li><a href="#?">Shipping</a></li>
+              <li><a href="#?">Order Status</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Our Contact</h4>
+            <div class="contact-footer">
+              <a href="#?"
+                ><i class="icon-footer" data-feather="instagram"></i
+              ></a>
+              <a href="#?"
+                ><i class="icon-footer" data-feather="facebook"></i
+              ></a>
+              <a href="#?"
+                ><i class="icon-footer" data-feather="twitter"></i
+              ></a>
+              <a href="#?"><i class="icon-footer" data-feather="phone"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!--JavaScript-->
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
