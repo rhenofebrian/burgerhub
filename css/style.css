@@ -335,7 +335,7 @@ body {
   cursor: pointer;
   margin-top: 3rem;
   display: block;
-  transition: transform 0.1s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .btn:active {
